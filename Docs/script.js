@@ -18,9 +18,12 @@ function getWord(inputVal) {
     }).then(response => {
         return response.json();
     }).then(function(data) {
-              var listItem = document.createElement('h2');
+        console.log(data);
+            for (var i = 0; i < data.length; i++) {
+              var listItem = document.createElement('h1');
               listItem.textContent = data[i].html_url;
               resultTextEl.appendChild(listItem);
+            }
     })
     
     .catch(err => {
