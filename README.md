@@ -14,3 +14,7 @@ THEN the page refreshes, clearing the list
 
 ![EXAMPLE](./images/screenshot1.png)
 ![EXAMPLE](./images/screenshot2.png)
+
+Visit the deployed site:
+
+[Have a Giphy Day](https://joshuamaney.github.io/have_a_giphy_day/)
