@@ -1,1 +1,0 @@
-# have_a_giphy_day
