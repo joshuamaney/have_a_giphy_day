@@ -28,7 +28,7 @@ async function getWordAndGif(inputVal) {
     var wordItem = document.createElement('h1');
     var definition = document.createElement('p');
     wordItem.textContent = usableWordData.word;
-    definition.textContent = usableWordData.definitions[0].definition; // displays only the first result
+    definition.textContent = usableWordData.definitions[1].definition; // displays only the first result
     wordDisplayDivEl.append(wordItem);
     wordDisplayDivEl.append(definition);
 
